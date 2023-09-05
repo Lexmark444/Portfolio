@@ -1,2 +1,2 @@
 # Portfolio
- My first portfolio using FastAPI backend and React Frontend
+ My first portfolio using React Frontend
