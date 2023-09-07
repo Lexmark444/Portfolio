@@ -33,7 +33,7 @@ export default function JokeGen(){;
     <section className="bg-white">
     <div className=" px-10 md:px-20 lg:px-40">
         <div className="flex flex-col justify-center text-center py-10">
-        <p className="p-5 text-md lg:text-2xl">{jokes}</p>
+        <p className="p-5 text-md lg:text-2xl text-black">{jokes}</p>
 
         <div className="border-black border-2 mx-auto">
         <button className="bg-black text-white py-2 px-4" onClick={fetchData} >New Joke</button>
