@@ -1,6 +1,6 @@
-import {BsList} from 'react-icons/bs';
 import KPlogo from '../public/static/kplogo.png';
 import Image from "next/image"
+import Link from 'next/link';
 
   
 export default function Navbar() {
@@ -14,7 +14,7 @@ export default function Navbar() {
             </div>
             <ul className='flex items-center'>
                 <li>
-                    <a href="../public/static/resume.pdf" download className='bg-black text-white px-4 py-2'>Resume</a>
+                    <Link href="../public/static/resume.pdf" target=' ' download className='bg-black text-white px-4 py-2'>Resume</Link>
                 </li>
     {/*
                 <li>
