@@ -30,6 +30,6 @@ a {
 }
 
 @font-face {
-  font-family: "burtons";
-  src: url('../public/static/Burtons.otf');
+  font-family: "scriptfont";
+  src: url('../public/static/scriptfont.ttf');
 }

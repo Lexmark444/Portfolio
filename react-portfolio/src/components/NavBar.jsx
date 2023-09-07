@@ -16,9 +16,11 @@ export default function Navbar() {
                 <li>
                     <a href="../public/static/resume.pdf" download className='bg-black text-white px-4 py-2'>Resume</a>
                 </li>
+    {/*
                 <li>
-                    <BsList className='cursor-pointer text-4xl ml-8' />
+                   <BsList className='cursor-pointer text-4xl ml-8' />
                 </li>
+    */}
             </ul>
         </nav>
         </section>

@@ -4,6 +4,9 @@ import About from '@/components/About';
 import Technologies from '@/components/Technologies';
 import Projects from '@/components/Projects';
 import ContactForm from '@/components/ContactForm';
+import QuoteGen from '@/components/QuoteGen';
+import JokeGen from '@/components/JokeGen';
+import Why from '@/components/Why.jsx';
 
 export default function Home() {
   return (
@@ -15,8 +18,11 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <QuoteGen />
       <Technologies />
+      <JokeGen />
       <Projects />
+      <Why />
       <ContactForm />
     </body>
     </>

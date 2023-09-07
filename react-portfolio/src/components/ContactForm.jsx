@@ -33,7 +33,7 @@ export default function ContactForm() {
                     <input type="text"
                         className="border-b border-black-800 py-1
                         focus:border-black focus:outline-none" 
-                        name='user_first_name' required />
+                        name='user_firstname' id="user_firstname" required />
                 </div>
 
                 <div className="flex flex-col gap-2 pt-2 w-full focus:drop-shadow">
@@ -41,7 +41,7 @@ export default function ContactForm() {
                     <input type="text"
                         className="border-b border-black-800 py-1
                         focus:border-black focus:outline-none" 
-                        name='user_last_name' required />
+                        name='user_lastname' id="user_lastname" required />
                 </div>
 
                 <div className="flex flex-col gap-2 pt-2 w-full focus:drop-shadow">
@@ -49,7 +49,7 @@ export default function ContactForm() {
                     <input type="text"
                         className="border-b border-black-800 py-1
                         focus:border-black focus:outline-none" 
-                        name='user_email' required />
+                        name='user_email' id="user_email" required />
                 </div>
 
                 <div className="flex flex-col gap-2 pt-2 w-full focus:drop-shadow">
@@ -57,12 +57,13 @@ export default function ContactForm() {
                     <input type="text"
                         className="border-b border-black-800 py-1
                         focus:border-black focus:outline-none" 
-                        name='user_subject' required />
+                        name='user_subject' id="user_subject" required />
                 </div>
 
                 <div className="flex flex-col gap-2 pt-2 w-full focus:drop-shadow">
                 <p className="text-md">Message*</p>      
-                <textarea name="message" 
+                <textarea name="user_message"
+                    id="user_message" 
                     cols="30" 
                     row="30"
                     className="border-b border-black-800 py-1
