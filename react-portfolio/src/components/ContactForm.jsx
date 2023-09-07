@@ -20,7 +20,7 @@ export default function ContactForm() {
 
     return(
         <section className="bg-gradient-to-b from-cyan-50 to-white py-10 px-10 md:px-20 lg:px-40">
-            <div className="text-3xl py-5"> Contact Me</div>
+            <div className="text-3xl py-5 text-black"> Contact Me</div>
 
             <div className="flex bg-white drop-shadow-lg">
             <form ref={form} 

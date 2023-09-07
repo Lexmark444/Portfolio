@@ -7,7 +7,7 @@ import library from '../public/static/library.png'
 export default function Projects() {
     return(
         <div className="bg-gradient-to-b from-white to-cyan-50 p-10 lg:px-40">
-            <h1 className='text-3xl py-1'>
+            <h1 className='text-3xl py-1 text-black'>
                 Projects
             </h1>
             <div className='flex flex-wrap py-2 md:px-10 gap-10 justify-evenly'>

@@ -3,7 +3,7 @@ export default function About(){
     return(
 
         <div className="bg-gradient-to-b from-white to bg-orange-100 p-10 pt-0 md:px-20 lg:px-40">
-            <h3 className="text-3xl py-1">My Journey</h3>
+            <h3 className="text-3xl py-1 text-black">My Journey</h3>
             <p className="text-md lg:text-lg py-2 leading-8 text-gray-800">
                 My career trajectory is as diverse as it gets. From custom framing, real estate sales and development,
                  to surgical neurophysiology, and now web development. 

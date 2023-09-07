@@ -7,7 +7,7 @@ import { AiFillHtml5 } from 'react-icons/ai'
 export default function Technologies(){
     return(
         <div className='bg-gradient-to-b from-orange-100 to-white p-10 md:px-20 lg:px-40'>
-            <h1 className='text-3xl py-1'>Technologies</h1>
+            <h1 className='text-3xl py-1 text-black'>Technologies</h1>
             <div className='lg:flex gap-10 py-2'>
                 <div className='flex-1 text-center shadow-lg p-10 rounded-xl'>
                     <div className='flex justify-center'>
