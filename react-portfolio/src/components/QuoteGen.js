@@ -32,7 +32,7 @@ export default function QuoteGen(){;
     <section className="bg-orange-100">
     <div className=" px-10 md:px-20 lg:px-40">
         <div className="flex flex-col justify-center text-center py-10">
-        <p className="p-5 text-md lg:text-2xl">{quotes}</p>
+        <p className="p-5 text-md lg:text-2xl italic">" {quotes} "</p>
         <p className="content-end text-md pb-5">~ {authors}</p>
         <div className="border-black border-2 mx-auto">
         <button className="bg-black text-white py-2 px-4" onClick={fetchData2} >New Quote</button>
