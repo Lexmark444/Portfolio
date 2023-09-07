@@ -1,7 +1,7 @@
 import KPlogo from '../public/static/kplogo.png';
 import Image from "next/image"
 import Link from 'next/link';
-import resume from '../public/static/resume.pdf'
+
 
   
 export default function Navbar() {
@@ -15,7 +15,7 @@ export default function Navbar() {
             </div>
             <ul className='flex items-center'>
                 <li>
-                    <Link href={resume} target=' ' download className='bg-black text-white px-4 py-2'>Resume</Link>
+                    <Link href="https://lime-joeann-31.tiiny.site" target=' ' download className='bg-black text-white px-4 py-2'>Resume</Link>
                 </li>
     {/*
                 <li>
