@@ -15,7 +15,7 @@ export default function Navbar() {
             </div>
             <ul className='flex items-center'>
                 <li>
-                    <Link href="https://lime-joeann-31.tiiny.site" target=' ' download className='bg-black text-white px-4 py-2'>Resume</Link>
+                    <Link href="https://krishnaresume.tiiny.site/" target=' ' download className='bg-black text-white px-4 py-2'>Resume</Link>
                 </li>
     {/*
                 <li>
